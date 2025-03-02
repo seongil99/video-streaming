@@ -1,0 +1,22 @@
+{
+  "name": "video-stream",
+  "version": "1.0.0",
+  "description": "Video streaming application with Vue frontend and Go/Rust backends",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "clean": "turbo run clean",
+    "go:build": "cd app/backend/go-backend && ./build.sh",
+    "rust:build": "cd app/backend/rust-backend && ./build.sh"
+  },
+  "keywords": ["video", "streaming", "monorepo"],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.5.2",
+  "devDependencies": {
+    "turbo": "^2.4.4"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "rust-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "cargo run",
+    "clean": "cargo clean"
+  }
+}

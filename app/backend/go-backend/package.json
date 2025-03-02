@@ -1,0 +1,10 @@
+{
+  "name": "go-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "./build.sh",
+    "dev": "go run main.go",
+    "clean": "rm -rf bin"
+  }
+}
